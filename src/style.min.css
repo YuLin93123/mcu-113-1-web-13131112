@@ -96,16 +96,6 @@ nav ul .active-link::after {
   margin-top: 5em;
   gap: 30px;
 }
-.home-text .icons .icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-}
 
 .home-image {
   display: flex;
@@ -285,11 +275,19 @@ footer .footer-menu {
 footer .footer-menu .menu-item {
   list-style: none;
 }
-footer .footer-menu a {
+footer .footer-menu .menu-item a {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
   margin-inline: 20px;
+}
+footer .footer-icon {
+  display: flex;
+  gap: 30px;
+}
+footer .bottom-footer {
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 :root {
@@ -347,4 +345,15 @@ body .containter {
 
 i {
   font-size: 16px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }/*# sourceMappingURL=style.min.css.map */
